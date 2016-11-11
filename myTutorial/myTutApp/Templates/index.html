@@ -1,10 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+{% load static %}
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/style.css' %}" />
+    <title>dJ-Tutorial</title>
 </head>
 <body>
-<h1>Django Tutorial</h1>
+<div class="Tutorial-title">
+<h1 style="color:blue;"align="Center"><u>Django Tutorial</u></h1></div>
+<div class="introduction">
+<h3>Introduction</h3>
+<p>Django is a <span class="tooltiptext">web-framework</span> which is really awesome at building dynamic website really fast.
+    It creates high-security web applications which is backed by a database that includes some kind of interactivity that operates through browser.
+
+Django is written in python so we need to install python and you should have python installed on your computer. You also need a code editor like Pycharm on your computer.
+
+Need of a code editor: - The first reason is that code needs to be plain text and second are specialized for editing code, so they can provide helpful features like highlighting code with color according to its meaning, or automatically closing quotes for you.
+
+
+Django comes with common functionality like:
+    <li><ol>Authentication: It handles user accounts, groups, permissions and cookie-based user sessions. </ol></li>
+    <li><ol>URL routing</ol></li>
+    <li><ol>a templating system</ol></li>
+    <li><ol>an object-relational mapper (ORM)</ol></li> 
+    <li><ol>database schema migrations (as of version 1.7) are all included with the Django framework.</ol></li>
+
+
+<div>
+    <h3> Virtual environment:</h3><p>virtualenv is a tool to create isolated Python environments. virtualenv creates a folder which contains
+    all the necessary executables to use the packages that a Python project would need.</p>
+
+    </div>
+</div>
+<div>
+  <h3>Installation steps:- </h3>
+    <p>Here are the steps one should follow to install: Go to the Terminal </p>
+    <li><ol>Go to the directory you want to keep your project and mkdir projectname.djangotutorial
+</ol></li>
+     <li><ol>Then cd to that dir and do virtualenv -p python3 venv for creating new virtual environment.
+</ol></li>
+     <li><ol>To go to virtual environment for the project: - . venv/bin/activate
+</ol></li>
+     <li><ol>cd myTutorial
+</ol></li>
+     <li><ol>python manage.py makemigrations myAPP</ol></li>
+    <li><ol>python manage.py migrate</ol></li>
+      <li><ol> python manage.py runserver</ol></li>
+      <strong>You get the server running with a URL for your webpage</strong>
+
+
+
+
+</div>
+
+<div class="tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
+</div>
 </body>
 </html>
