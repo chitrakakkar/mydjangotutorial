@@ -1,7 +1,7 @@
 div.container
 {
     width:1300px;
-    height: 2000px;
+    height: 1800px;
 
 
 }
@@ -58,7 +58,7 @@ article {
     overflow: hidden;
 }
 p{
-    font-size: x-large;
+    font-size: large;
 
 
 
